@@ -27,7 +27,7 @@ x = 9; y = x + 1
 # First, "x" must be initialized/defined because "y" is dependant on the value of "x".
 # If we switch line 25 with line 32, ["x" is not defined (Pylance) reportUndefinedVariable] is returned.
 # y = x + 1; x = 9
-# Final Answer: "x" must be defined before "y" because the defining of "y" relies on the "x" variable.
+# "x" must be defined before "y" because the defining of "y" relies on the "x" variable.
 
 print("X:",x,"\nY:",y)
 # Using commas, spaces can be added. Commas are an alternative to using [" " + ]
