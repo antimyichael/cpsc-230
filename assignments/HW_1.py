@@ -13,9 +13,8 @@ user_name = input()
 print("Hello", user_name + "!")
 
 
-##############################################################
+print(" \n2)") ##############################################################
 
-print(" \n2)")
 '''
 2. Given variables x and y, can you write code to assign 9 to x and x + 1 to y, 
     and print out the values of x and y with one statement? Include comments to EACH line
@@ -40,9 +39,8 @@ print("X:",x,"\nY:",y)
 # With the same process as before with "x", the variable "y" can be printed out on a new line while
 # keeping everything in one print statement.
 
-##############################################################
+print(" \n3)") ##############################################################
 
-print(" \n3)")
 '''
 3. Write a statement that assigns total_coins with the sum of nickel_count and 
     dime_count to complete the code. Include comments to EACH line
