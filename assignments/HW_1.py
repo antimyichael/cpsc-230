@@ -12,7 +12,6 @@ print("Hello, what is your name?")
 user_name = input()
 print("Hello", user_name + "!")
 
-
 print(" \n2)") ##############################################################
 
 '''
@@ -46,27 +45,20 @@ print(" \n3)") ##############################################################
     dime_count to complete the code. Include comments to EACH line
     to explain the code.
 '''
-# Initializes the variable "total_coins" with the int value "1"
+
 total_coins = 0
+# Initializes the variable "total_coins" with the int value "0"
 
-# Defines "nickel_count" as the next line of input in the terminal and type casts it as an int.
 nickel_count = int(input())
+# Defines "nickel_count" as the next line of input in the terminal and type casts it as an int.
 
-# Defines "dime_count" as the next line of input in the terminal while also type casting it as an int.
 dime_count = int(input())
+# Defines "dime_count" as the next line of input in the terminal while also type casting it as an int.
 
-### write your code below
 total_coins = nickel_count + dime_count
+# Sets the value of "total_coins" to the sum of "nickel_count" and "dime_count"
 
-# From question 3, it is clear that "total_coins" needs to represent the sum of "nickel_count" and "dime_count".
-# In line 52, "total_coins" was initialized with the int value of "1". Now, it will represent the int value of "dime_count"
-# added to the int value of "nickel_count".
-
-# prints the int value of "total_coins".
 print(total_coins)
+# prints the int value of "total_coins"
 
-# ideally i wouldve wanted to add a line such as:
-# print("Nickel Count?:")
-# To someone who is not able to see the code, they would be able to understand what value
-# is intended to be typed in.
 ##############################################################
