@@ -70,8 +70,10 @@ Sum them up and assign the result to another variable, c
 Print out the value of c, and its type.
 Explain why the result is that type.
 '''
-a = 1.3
-b = 5
+a = '1.3'
+b = '5'
+a = float(a)
+b = int(b)
 c = a + b
 print (c, type(c))
 # 'c' is defined as a float because during the addition of 'a' and 'b', at least
