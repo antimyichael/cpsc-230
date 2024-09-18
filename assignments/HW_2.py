@@ -19,6 +19,7 @@ print(" \n2)") ##############################################################
 '''
 # your code here
 student_1 = {"Name" : "William Myron Keck", "Age" : 84, "Major" : "Biomedical Engineering"}
+print(student_1)
 
 print(" \n3)") ##############################################################
 
