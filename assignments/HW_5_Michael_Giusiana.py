@@ -59,6 +59,8 @@ while True:
 
     ###  write your code below ###   
     # TODO: split the password into tokens and store the result to my_tokens
+    
+    # TODO: Use if-elif-else check the criteria and print the messages
     if (len(my_password) >= 10) and ((my_password[0].isdigit()) == False) and ((my_password[0].isupper()) == True) and (len(my_password.split()) >= 2):
         print("Password accepted!")
         break
@@ -71,8 +73,3 @@ while True:
             print("Your password does not start with an uppercase letter.")
         if (len(my_password.split()) < 2):
             print("Your password contains less than two words.")
-
-    
-    # TODO: Use if-elif-else check the criteria and print the messages
-
-
