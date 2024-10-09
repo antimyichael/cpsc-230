@@ -9,7 +9,7 @@ print("1)")
 str1 = 'Hello World!'
 for i in range(len(str1)):
     if str1[i] == 'r':
-        print(str1[i])
+        print("Index",i,"in str1")
 str2 = str1[6:-1]
 print(str2)
 
