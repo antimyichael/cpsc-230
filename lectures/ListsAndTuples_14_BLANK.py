@@ -103,6 +103,3 @@ shopping_list = (("apple", 1), ("banana", 2), ("cherry", 3), ("dragonfruit", 4))
 for i in range(len(shopping_list)):
     if shopping_list[i][1] == 2:
         print(shopping_list[i][0])
-
-
-
